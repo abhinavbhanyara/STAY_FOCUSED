@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>STAY_FOCUSED</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="clock.css"/>
+  </head>
+  <body onload="showTime();showTimer()">
+<div>
+  <div class="col-xs-6" id="elem0">
+
+  </div>
+  <div class="col-xs-3" id="elem">
+
+  </div>
+  <div class="col-xs-3" id="elem1">
+
+  </div>
+  <div class="col-xs-9">
+
+  </div>
+  <div class="col-xs-3" id="elem3">
+
+  </div>
+  <div class="col-xs-11">
+
+  </div>
+  <div class="col-xs-1" id="elem2">
+
+  </div>
+</div>
+<div class="row">
+<div class="col-xs-4">
+  <button class="button button5" onclick="decrease()">-</button>
+</div>
+  <div class="col-xs-3">
+    <div id="timer" class="bob">
+
+</div>
+  </div>
+<div class="col-xs-5">
+  <button class="button button6" onclick="increase()">+</button>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-4">
+  <button id="btun" class="btn-success btn-block btn-lg " onclick="startTimer()">Start Timer</button>
+</div>
+<div class="col-xs-4">
+  <button id="btun" class="btn-primary btn-block btn-lg " onclick="pauseTimer()">Pause Timer</button>
+</div>
+<div class="col-xs-4">
+  <button id="btun" class="btn-danger btn-block btn-lg " onclick="stopTimer()">Stop Timer</button>
+</div>
+</div>
+<audio id="adio" src="clock.mp3">
+
+</audio>
+<audio id="bdio" src="alarm.mp3">
+
+</audio>
+  </body>
+  <script type="text/javascript" src="clock.js"></script>
+</html>

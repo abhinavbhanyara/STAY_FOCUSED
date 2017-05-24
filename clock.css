@@ -1,0 +1,86 @@
+#elem, #elem0, #elem1{
+  background-color: #333;
+  color: white;
+  font-size: 90px;
+  font-family: 'Cabin Sketch', cursive;
+}
+#elem3{
+  background-color: #222;
+  color: white;
+  font-size: 40px;
+  font-family: 'Cabin Sketch';
+}
+#elem2{
+  background-color: #111;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+body{
+  background-color: #999;
+}
+#btun{
+  font-size: 70px;
+  font-family: 'Cabin Sketch';
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border: none;
+  outline: none;
+}
+.bob {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 90px;
+    border: 5px red dotted;
+    background-color: black;
+  }
+.button5 {
+  border-radius: 50%;
+    background-color: #31B94D;
+    border: none;
+    color: white;
+    padding: 0px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-left: 400px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 8px #777;
+}
+.button5:active {
+  background-color: #228B22;
+  box-shadow: 0 5px #555;
+  transform: translateY(3px);
+}
+.button6 {
+  border-radius: 50%;
+    background-color: #31B94D;
+    border: none;
+    color: white;
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 38px;
+    margin-left: 120px;
+    margin-top: 125px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 8px #777;
+}
+.button6:active {
+  background-color: #228B22;
+  box-shadow: 0 5px #555;
+  transform: translateY(3px);
+}
+#timer{
+  padding-top: 110px;
+  padding-left: 12px;
+  color: #F00000;
+  font-size: 49px;
+  font-family: 'Orbitron', sans-serif;
+}
