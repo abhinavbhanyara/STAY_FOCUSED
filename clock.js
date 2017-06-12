@@ -17,6 +17,9 @@ function showTime(){
     q="pm";
   }
   else {
+    if (h==0) {
+      h=12;
+    }
     q="am";
   }
   var y=today.getFullYear();
