@@ -54,7 +54,7 @@ body{
 }
 .button5:active {
   background-color: #228B22;
-  box-shadow: 0 5px #555;
+  box-shadow: 0 4px #555;
   transform: translateY(3px);
 }
 .button6 {
@@ -68,14 +68,14 @@ body{
     display: inline-block;
     font-size: 1.6vw;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 24%;
     cursor: pointer;
     outline: none;
     box-shadow: 0 8px #777;
 }
 .button6:active {
   background-color: #228B22;
-  box-shadow: 0 5px #555;
+  box-shadow: 0 4px #555;
   transform: translateY(3px);
 }
 #timer{
