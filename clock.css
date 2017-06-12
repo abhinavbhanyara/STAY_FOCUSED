@@ -1,38 +1,38 @@
 #elem, #elem0, #elem1{
   background-color: #333;
   color: white;
-  font-size: 90px;
+  font-size: 6vw;
   font-family: 'Cabin Sketch', cursive;
 }
 #elem3{
   background-color: #222;
   color: white;
-  font-size: 40px;
+  font-size: 2vw;
   font-family: 'Cabin Sketch';
 }
 #elem2{
   background-color: #111;
   color: white;
-  font-size: 20px;
+  font-size: 1vw;
   font-family: cursive;
 }
 body{
   background-color: #999;
 }
 #btun{
-  font-size: 70px;
+  font-size: 4vw;
   font-family: 'Cabin Sketch';
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   border: none;
   outline: none;
 }
 .bob {
-    height: 300px;
-    width: 300px;
-    border-radius: 100%;
-    margin-left: 90px;
-    border: 5px red dotted;
+    height: 350px;
+    width: 76%;
+    border-radius: 50%;
+    margin-left: 20%;
+    border: 5px lightgreen dotted;
     background-color: black;
   }
 .button5 {
@@ -40,13 +40,13 @@ body{
     background-color: #31B94D;
     border: none;
     color: white;
-    padding: 0px 40px;
+    padding: 0.5% 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
-    margin-top: 120px;
-    margin-left: 400px;
+    font-size: 2vw;
+    margin-top: 20%;
+    margin-left: 70%;
     cursor: pointer;
     outline: none;
     box-shadow: 0 8px #777;
@@ -61,13 +61,13 @@ body{
     background-color: #31B94D;
     border: none;
     color: white;
-    padding: 0px 35px;
+    padding: 1% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 38px;
-    margin-left: 120px;
-    margin-top: 125px;
+    font-size: 1.6vw;
+    margin-left: 15%;
+    margin-top: 18%;
     cursor: pointer;
     outline: none;
     box-shadow: 0 8px #777;
@@ -78,9 +78,9 @@ body{
   transform: translateY(3px);
 }
 #timer{
-  padding-top: 110px;
-  padding-left: 12px;
+  padding-top: 30%;
+  padding-left: 3%;
   color: #F00000;
-  font-size: 49px;
+  font-size: 3vw;
   font-family: 'Orbitron', sans-serif;
 }
