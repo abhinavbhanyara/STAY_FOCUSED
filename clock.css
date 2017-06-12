@@ -30,7 +30,7 @@ body{
 .bob {
     height: 18vw;
     width: 76%;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-left: 20%;
     border: 5px lightgreen dotted;
     background-color: black;
