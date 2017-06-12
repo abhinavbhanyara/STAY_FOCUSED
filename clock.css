@@ -28,10 +28,11 @@ body{
   outline: none;
 }
 .bob {
-    height: 18vw;
     width: 76%;
-    border-radius: 30%;
+    border-radius: 40%;
     margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 20%;
     border: 5px lightgreen dotted;
     background-color: black;
   }
@@ -45,8 +46,8 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 2vw;
-    margin-top: 23%;
-    margin-left: 77%;
+    margin-top: 16%;
+    margin-left: 87%;
     cursor: pointer;
     outline: none;
     box-shadow: 0 8px #777;
@@ -66,8 +67,8 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 1.6vw;
-    margin-left: 15%;
-    margin-top: 18%;
+    margin-left: 10%;
+    margin-top: 13%;
     cursor: pointer;
     outline: none;
     box-shadow: 0 8px #777;
@@ -78,7 +79,8 @@ body{
   transform: translateY(3px);
 }
 #timer{
-  padding-top: 30%;
+  padding-top: 10%;
+  padding-bottom: 5%;
   padding-left: 3%;
   color: #F00000;
   font-size: 3vw;
