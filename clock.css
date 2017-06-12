@@ -22,17 +22,17 @@ body{
 #btun{
   font-size: 70vw;
   font-family: 'Cabin Sketch';
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 65vw;
+  padding-bottom: 65vw;
   border: none;
   outline: none;
 }
 .bob {
-    height: 300px;
-    width: 300px;
+    height: 300vw;
+    width: 300vw;
     border-radius: 100%;
-    margin-left: 90px;
-    border: 5px red dotted;
+    margin-left: 90vw;
+    border: 5vw red dotted;
     background-color: black;
   }
 .button5 {
@@ -40,46 +40,46 @@ body{
     background-color: #31B94D;
     border: none;
     color: white;
-    padding: 0px 40px;
+    padding: 0vw 40vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 40vw;
-    margin-top: 120px;
-    margin-left: 400px;
+    margin-top: 120vw;
+    margin-left: 400vw;
     cursor: pointer;
     outline: none;
-    box-shadow: 0 8px #777;
+    box-shadow: 0 8vw #777;
 }
 .button5:active {
   background-color: #228B22;
-  box-shadow: 0 5px #555;
-  transform: translateY(3px);
+  box-shadow: 0 5vw #555;
+  transform: translateY(3vw);
 }
 .button6 {
   border-radius: 50%;
     background-color: #31B94D;
     border: none;
     color: white;
-    padding: 0px 35px;
+    padding: 0vw 35vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 38vw;
-    margin-left: 120px;
-    margin-top: 125px;
+    margin-left: 120vw;
+    margin-top: 125vw;
     cursor: pointer;
     outline: none;
-    box-shadow: 0 8px #777;
+    box-shadow: 0 8vw #777;
 }
 .button6:active {
   background-color: #228B22;
-  box-shadow: 0 5px #555;
-  transform: translateY(3px);
+  box-shadow: 0 5vw #555;
+  transform: translateY(3vw);
 }
 #timer{
-  padding-top: 110px;
-  padding-left: 12px;
+  padding-top: 110vw;
+  padding-left: 12vw;
   color: #F00000;
   font-size: 49vw;
   font-family: 'Orbitron', sans-serif;
